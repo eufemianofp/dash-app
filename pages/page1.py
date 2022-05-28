@@ -13,7 +13,7 @@ layout = html.Div([
     html.Div(id='page-1-display-value'),
     dcc.Link('Go to Page 2', href='/page2'),
     html.Br(),
-    dcc.Link('Go to HOME', href='/'),
+    dcc.Link('Go to Home', href='/'),
 ])
 
 

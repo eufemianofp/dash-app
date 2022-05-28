@@ -22,7 +22,7 @@ def display_page(pathname):
         return page2.layout
     else:
         return html.Div(id='main-div', children=[
-            html.H3('HOME'),
+            html.H3('Home'),
             dcc.Link('Go to Page 1', href='/page1'),
             html.Br(),
             dcc.Link('Go to Page 2', href='/page2'),
